@@ -24,10 +24,12 @@ This approach is especially useful for:
 ### MCP server configuration
 Add this MCP server to your facorite agent.
 ```
-"think-mcp": {
-    "command": "uvx",
-    "args": ["think-mcp"],
-    "enabled": true
+"mcpServers": {
+    "think-mcp": {
+        "command": "uvx",
+        "args": ["think-mcp"],
+        "enabled": true
+    }
 }
 ```
 
@@ -35,6 +37,25 @@ Add this MCP server to your facorite agent.
 The "think" tool is defined as:
 - **Input:** `thought` (string) — A thought to think about.
 - **Behavior:** Appends the thought to the log for structured reasoning.
+
+## Advanced mode
+Adds aditional tools for your agent:
+- criticize
+- plan
+- search
+
+```
+"mcpServers": {
+    "think-mcp": {
+        "command": "uvx",
+        "args": ["think-mcp", "--advanced"],
+        "enabled": true,
+        "env": {
+            "TAVILY_API_KEY": ... YOUR TAVILY API KEY HERE ...
+        }
+    }
+}
+```
 
 ## Reference
 - Based on: [Anthropic Engineering Blog — The "think" tool](https://www.anthropic.com/engineering/claude-think-tool)
