@@ -358,7 +358,7 @@ wheels = [
 
 [[package]]
 name = "think-mcp"
-version = "0.1.11"
+version = "0.1.12"
 source = { virtual = "." }
 dependencies = [
     { name = "mcp", extra = ["cli"] },

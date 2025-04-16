@@ -2,6 +2,10 @@
 
 Think MCP is an implementation of an MCP (Model Context Protocol) server that provides a "think" tool for structured reasoning in agentic AI workflows. This project is inspired by the Anthropic engineering article: [The "think" tool: Enabling Claude to stop and think in complex tool use situations](https://www.anthropic.com/engineering/claude-think-tool).
 
+According to the referenced article, adding the think tool can lead to improved evaluation metrics by enabling reasoning capabilities even in models that do not natively possess advanced reasoning skills.
+
+![alt text](tau_bench.png)
+
 ## What is the "think" tool?
 The "think" tool allows an AI agent to pause and record an explicit thought during complex reasoning or multi-step tool use. It does not change the environment or database, but appends the thought to the log, helping the agent process information, backtrack, or comply with detailed policies.
 
