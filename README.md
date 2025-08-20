@@ -1,4 +1,5 @@
 # Think MCP Tool
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/Rai220/think-mcp)](https://archestra.ai/mcp-catalog/rai220__think-mcp)
 
 Think MCP is an implementation of an MCP (Model Context Protocol) server that provides a "think" tool for structured reasoning in agentic AI workflows. This project is inspired by the Anthropic engineering article: [The "think" tool: Enabling Claude to stop and think in complex tool use situations](https://www.anthropic.com/engineering/claude-think-tool).
 
