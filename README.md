@@ -6,6 +6,10 @@ According to the referenced article, adding the think tool can lead to improved 
 
 ![alt text](tau_bench.png)
 
+<a href="https://glama.ai/mcp/servers/@Rai220/think-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@Rai220/think-mcp/badge" alt="Think Tool MCP server" />
+</a>
+
 ## What is the "think" tool?
 The "think" tool allows an AI agent to pause and record an explicit thought during complex reasoning or multi-step tool use. It does not change the environment or database, but appends the thought to the log, helping the agent process information, backtrack, or comply with detailed policies.
 
