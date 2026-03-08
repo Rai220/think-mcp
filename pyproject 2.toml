@@ -1,0 +1,34 @@
+[project]
+name = "think_mcp"
+version = "0.1.16"
+description = "MCP server providing a 'think' tool for structured reasoning, inspired by Anthropic's Claude 'think' tool. Enables agentic LLMs to pause, log thoughts, and improve multi-step tool use."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "python-dotenv>=1.1.0",
+    "tavily-python>=0.5.4",
+]
+authors = [
+    { name = "Konstantin Krestnikov", email = "k.krestnikov@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = [
+    "mcp",
+    "think",
+    "agentic",
+    "llm",
+    "structured reasoning",
+    "anthropic",
+    "claude",
+]
+
+[project.urls]
+Homepage = "https://github.com/Rai220/think-mcp"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+think_mcp = "think_mcp.__main__:main"
+think-mcp = "think_mcp.__main__:main"
