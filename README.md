@@ -18,6 +18,10 @@ This approach is especially useful for:
 - Policy-heavy environments (verifying compliance with guidelines)
 - Sequential decision making (where each step builds on previous ones)
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/rai220-think-mcp).
+
 ## Features
 - Implements the "think" tool as described in Anthropic's research
 - Minimal, standards-based MCP server using [mcp[cli]](https://pypi.org/project/mcp/)
